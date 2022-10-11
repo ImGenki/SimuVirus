@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controleur">
+   <children>
+      <TextField fx:id="nbPersonne" layoutX="293.0" layoutY="96.0" />
+      <Label layoutX="76.0" layoutY="101.0" prefHeight="21.0" prefWidth="178.0" text="Nombre de personnes" />
+      <Label layoutX="100.0" layoutY="207.0" text="Nombre d'infectés" />
+      <TextField fx:id="nbInfectes" layoutX="300.0" layoutY="202.0" />
+      <Button fx:id="start" layoutX="130.0" layoutY="289.0" mnemonicParsing="false" onAction="#start" text="START" />
+      <Button fx:id="exit" layoutX="347.0" layoutY="289.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+   </children>
+</AnchorPane>
